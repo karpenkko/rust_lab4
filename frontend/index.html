@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rust WebSocket Chat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="chat-box">
+        <div id="messages"></div>
+        <div id="input-container">
+            <input type="text" id="username" placeholder="Enter your name" autofocus>
+            <div id="message-container" style="display: none;">
+                <input type="text" id="input" placeholder="Type a message...">
+                <label for="fileInput" id="fileLabel">
+                    <img src="clip-icon.png" alt="Attach" title="Attach a file">
+                </label>
+                <input type="file" id="fileInput" style="display: none;">
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
